@@ -11,7 +11,9 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
+  entry_points:
+    - pydm = pydm_launcher.main:main
 
 requirements:
   host:
