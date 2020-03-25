@@ -30,6 +30,10 @@ requirements:
     - pyqt >=5
     - pyqtgraph
     - qtpy
+  doc:
+    - sphinx
+  docs:
+    - sphinx_rtd_theme
 
 test:
   imports:
