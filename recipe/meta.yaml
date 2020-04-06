@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/slaclab/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 770cd76f3d5fe9bc27594e68d6f88d3b77e764892115accf7dbfe09e38c52509
+  sha256: d92561638549749d378c452375357c8d1e659ce31cdd0ad2a256a0a9f51741de
 
 build:
   noarch: python
-  number: 1
+  number: 2
   entry_points:
     - pydm = pydm_launcher.main:main
 
@@ -39,7 +39,7 @@ test:
 
 about:
   home: https://github.com/slaclab/pydm 
-  license: SLAC Open
+  license: LicenseRef-BSD-3-Clause-SLAC
   license_family: OTHER
   license_file: LICENSE.md
   summary: 'Python Display Manager'
