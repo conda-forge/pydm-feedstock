@@ -3,7 +3,7 @@ About pydm
 
 Home: https://github.com/slaclab/pydm
 
-Package license: SLAC Open
+Package license: LicenseRef-BSD-3-Clause-SLAC
 
 Feedstock license: BSD 3-Clause
 
