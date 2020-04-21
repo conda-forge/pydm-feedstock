@@ -1,5 +1,5 @@
 {% set name = "pydm" %}
-{% set version = "1.9.0" %}
+{% set version = "1.10.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/slaclab/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: d92561638549749d378c452375357c8d1e659ce31cdd0ad2a256a0a9f51741de
+  sha256: 425886b598842838921aa50257b7e554137a86399e853e0f9116acc10ce9ad38
 
 build:
   noarch: python
-  number: 2
+  number: 0
   entry_points:
     - pydm = pydm_launcher.main:main
 
@@ -38,11 +38,11 @@ test:
     - pydm
 
 about:
-  home: https://github.com/slaclab/pydm 
+  home: https://github.com/slaclab/pydm
   license: LicenseRef-BSD-3-Clause-SLAC
   license_family: OTHER
   license_file: LICENSE.md
-  summary: 'Python Display Manager'
+  summary: Python Display Manager
 
   description: |
     PyDM is a PyQt-based framework for building user interfaces for control systems.
