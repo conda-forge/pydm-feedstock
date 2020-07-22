@@ -5,7 +5,7 @@ Home: https://github.com/slaclab/pydm
 
 Package license: LicenseRef-BSD-3-Clause-SLAC
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Python Display Manager
 
