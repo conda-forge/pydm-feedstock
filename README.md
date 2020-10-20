@@ -5,9 +5,13 @@ Home: https://github.com/slaclab/pydm
 
 Package license: LicenseRef-BSD-3-Clause-SLAC
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pydm-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python Display Manager
+
+Development: https://github.com/slaclab/pydm
+
+Documentation: https://slaclab.github.io/pydm/
 
 PyDM is a PyQt-based framework for building user interfaces for control systems.
 The goal is to provide a no-code, drag-and-drop system to make simple screens,
