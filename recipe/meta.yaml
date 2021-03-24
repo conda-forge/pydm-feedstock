@@ -1,5 +1,5 @@
 {% set name = "pydm" %}
-{% set version = "1.10.7" %}
+{% set version = "1.11.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/slaclab/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 0a5c5f27ec30ca3efbf31794b5c186fd742831306d34263039c74e8cceb3ffc7
+  sha256: 9f08a08134735eb1cae314d46a47e5091851835afc4791e588a0e56a01a213c3
 
 build:
   noarch: python
