@@ -45,6 +45,7 @@ Installing `pydm` from the `conda-forge` channel can be achieved by adding `cond
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `pydm` can be installed with:
@@ -124,4 +125,5 @@ Feedstock Maintainers
 =====================
 
 * [@hhslepicka](https://github.com/hhslepicka/)
+* [@jacquelinegarrahan](https://github.com/jacquelinegarrahan/)
 
