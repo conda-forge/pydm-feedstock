@@ -127,4 +127,5 @@ Feedstock Maintainers
 
 * [@hhslepicka](https://github.com/hhslepicka/)
 * [@jacquelinegarrahan](https://github.com/jacquelinegarrahan/)
+* [@zllentz](https://github.com/zllentz/)
 
