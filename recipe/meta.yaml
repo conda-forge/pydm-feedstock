@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/slaclab/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 0bbd96082ea108a6de8837b54ec42e1557dbf2b30605ec8fc89c92ebf9186691
+  sha256: 2ca490830717cfa0a553ed3d6760c1fb110b5ff0e15cb2d479a10009e6783423
 
 build:
   noarch: python
@@ -53,5 +53,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - hhslepicka
     - zllentz
