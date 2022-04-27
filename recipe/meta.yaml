@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/slaclab/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 07502cce327cd43993cd4bd2d6db95027b6abace8b090661ec2cbd6f8137653b
+  sha256: cc88bd03b3c27a0a733b187c98377957b6fc026bdc5ad8eac434170362f4f894
 
 build:
   noarch: python
-  number: 0
+  number: 1
   entry_points:
     - pydm = pydm_launcher.main:main
 
