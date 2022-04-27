@@ -153,4 +153,6 @@ Feedstock Maintainers
 =====================
 
 * [@zllentz](https://github.com/zllentz/)
+* [@yektay](https://github.com/YektaY/) 
+* [@jbellister-slac](https://github.com/jbellister-slac)
 
