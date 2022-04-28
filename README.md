@@ -152,7 +152,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@jbellister-slac](https://github.com/jbellister-slac/)
+* [@yektay](https://github.com/yektay/)
 * [@zllentz](https://github.com/zllentz/)
-* [@yektay](https://github.com/YektaY/) 
-* [@jbellister-slac](https://github.com/jbellister-slac)
 
