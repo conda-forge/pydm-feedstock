@@ -7,29 +7,29 @@ package:
 
 source:
   url: https://github.com/slaclab/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: b89eab831a2e420fc2b16a8b2848195e448f6239bfa2fbc72b8e7de416730fb7
+  sha256: b32e6bc81fb5900c951633a76a6bfce7827323289aed0dc467372e4397fc83f7
 
 build:
   noarch: python
-  number: 0
+  number: 1
   entry_points:
     - pydm = pydm_launcher.main:main
 
 requirements:
   host:
-    - python >=2.7
+    - python >=3.6
     - pip
     - setuptools
-    - pyqt >=5
+    - pyqt >=5,<5.15
     - qtpy
   run:
-    - python >=2.7
+    - python >=3.6
     - six
     - numpy
     - scipy
     - pyepics
     - requests
-    - pyqt >=5
+    - pyqt >=5,<5.15
     - pyqtgraph
     - qtpy
 
