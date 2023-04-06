@@ -1,11 +1,11 @@
-About pydm
-==========
+About pydm-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pydm-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/slaclab/pydm
 
 Package license: LicenseRef-BSD-3-Clause-SLAC
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pydm-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python Display Manager
 
