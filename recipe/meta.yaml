@@ -1,5 +1,5 @@
 {% set name = "pydm" %}
-{% set version = "1.20.0" %}
+{% set version = "1.20.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/slaclab/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 1a8e8a26fa48ca89bcec0fbc82757d09571ea739734a99909be97f3479ca63fd
+  sha256: 0b984862b5726aff3d2dbf9c254ecb63ddd23023f7154669ab6c9395fa962c9a
 
 build:
   noarch: python
@@ -28,7 +28,6 @@ requirements:
     - numpy
     - scipy
     - pyepics
-    - requests
     - pyqt =5
     - pyqtgraph
     - qtpy
