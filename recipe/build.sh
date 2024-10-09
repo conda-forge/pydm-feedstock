@@ -1,3 +1,7 @@
+#!/bin/bash
+
+set -vxeuo pipefail
+
 # Install the package
 $PYTHON setup.py install --single-version-externally-managed --record=record.txt
 
