@@ -11,19 +11,19 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   entry_points:
     - pydm = pydm_launcher.main:main
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - pip
     - setuptools
     - pyqt =5
     - qtpy
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - six
     - numpy
     - scipy
@@ -34,6 +34,8 @@ requirements:
     - entrypoints
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - pydm
 
