@@ -1,3 +1,7 @@
+#!/bin/bash
+
+set -vxeuo pipefail
+
 # Install the package
 export SETUPTOOLS_SCM_PRETEND_VERSION=$VERSION
 $PYTHON -m pip install . -vv
