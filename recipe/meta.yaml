@@ -11,15 +11,18 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   entry_points:
     - pydm = pydm_launcher.main:main
+  script_env:
+    - VERSION={{ version }}
 
 requirements:
   host:
     - python {{ python_min }}
     - pip
     - setuptools
+    - setuptools_scm
     - pyqt =5
     - qtpy >=2.2.0
   run:
