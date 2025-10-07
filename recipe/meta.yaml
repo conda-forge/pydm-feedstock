@@ -1,5 +1,5 @@
 {% set name = "pydm" %}
-{% set version = "1.27.2" %}
+{% set version = "1.28.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3ad2baeb84511d68a916ee267cea4406076c75926211afd7c5a342498273f5d8
+  sha256: 95e666a66ca5aab0fa60d3c70c68d16019ba02dc829b2263f777eedf005f6f2b
 
 build:
   noarch: python
