@@ -1,3 +1,7 @@
+#!/bin/bash
+
+set -vxeuo pipefail
+
 # Install the package
 $PYTHON -m pip install . -vv
 

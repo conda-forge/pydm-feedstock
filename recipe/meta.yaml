@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   entry_points:
     - pydm = pydm_launcher.main:main
 
@@ -39,6 +39,10 @@ test:
     - python {{ python_min }}
   imports:
     - pydm
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://github.com/slaclab/pydm
