@@ -1,5 +1,5 @@
 {% set name = "pydm" %}
-{% set version = "1.28.1" %}
+{% set version = "1.28.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: bb96faf4c58e661f5c5668a95c0c86f03e235115ebe97c22455bf057573e5ccd
+  sha256: 1768a06997686bd4d3d899e52047054452646a2381e2c495719bf710fe45ab92
 
 build:
   noarch: python
@@ -27,7 +27,6 @@ requirements:
     - python >={{ python_min }}
     - six
     - numpy
-    - scipy
     - pyepics
     - pyqt =5
     - pyqtgraph
